@@ -26,7 +26,7 @@ class BaiduSpider(object):
         result = response.content
         return result
 
-    @classmethod
+    @staticmethod
     def params_response(self):
         pass
 
